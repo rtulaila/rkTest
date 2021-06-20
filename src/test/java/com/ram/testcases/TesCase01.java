@@ -27,13 +27,13 @@ public class TesCase01 {
 		String expectedTitle = "Google";
 		System.out.println("Actual Title :" + actualTitle);
 		Assert.assertEquals(actualTitle, expectedTitle);
-		System.out.println("Test Completed");
+		System.out.println(" Test Completed ");
 	}
 
 	@AfterTest
 	public void closeBrowser() {
 		driver.close(); 
-		System.out.println("Google Page Closed");
+		System.out.println(" Google Page Closed ");
 	} 
 
 }
