@@ -34,6 +34,7 @@ public class TesCase01 {
 	public void closeBrowser() {
 		driver.close(); 
 		System.out.println(" Google Page Closed ");
+		System.out.println(" adding Jenkisfile to this prog ");
 	} 
 
 }
